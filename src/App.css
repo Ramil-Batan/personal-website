@@ -1,0 +1,190 @@
+body::-webkit-scrollbar{
+  display: none;
+}
+*{
+  font-family: "Open-Sans";
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+nav{
+  background-color: antiquewhite;
+}
+.conDiv{
+  margin-left: 32px;
+  margin-right: 64px;
+  margin-top: 48px;
+  align-self: center;
+}
+.main--intro{
+  font-size: 45px;
+  margin-bottom: 0;
+}
+.main--smalldes{
+  margin: 0;
+}
+.main--para{
+  margin-top: -15px;
+  max-width: 550px;
+  letter-spacing: 1.5px;
+  text-align: justify;
+  padding-right: 32px;
+}
+.picDiv{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 64px 0;
+  margin-bottom: 128px;
+}
+.circle1{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: rgb(246, 211, 166);
+  z-index: 1;
+  right: -32px;
+  top: -32px;
+}
+.circle2{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: -32px;
+  bottom: -32px;
+  border-radius: 50%;
+  background-color: rgb(226, 179, 118);
+  z-index: 1;
+}
+.pic{
+  z-index: 1;
+  align-self: center;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 45%;
+}
+
+.nav--div{
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}
+.circle{
+  margin-left: 15px;
+  background-color: rgb(246, 173, 78);;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.indexing{
+  margin-left: 32px;
+}
+.footer--label{
+  margin-top: -5px;
+}
+.item{
+  display: flex;
+  margin-left: -230px;
+  align-self: center;
+}
+.logo{
+  margin: 0 10px;
+}
+.main--div{
+  display: flex;
+  justify-content: center;
+}
+.indexing{
+  display: flex;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 745px){
+  .conDiv{
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 48px;
+  }
+  .main--intro{
+    font-size: 45px;
+    margin-bottom: 0;
+  }
+  .main--smalldes{
+    margin: 0;
+  }
+  .main--para{
+    margin-top: -15px;
+    max-width: 550px;
+    letter-spacing: 1.5px;
+    text-align: justify;
+    padding-right: 32px;
+  }
+  .picDiv{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 64px 0;
+    margin-bottom: 128px;
+  }
+  .circle1{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: rgb(246, 211, 166);
+    z-index: 1;
+    right: 32px;
+    top: -32px;
+  }
+  .circle2{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 32px;
+    bottom: -32px;
+    border-radius: 50%;
+    background-color: rgb(226, 179, 118);
+    z-index: 1;
+  }
+  .pic{
+    z-index: 1;
+    align-self: center;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 45%;
+  }
+  
+  .nav--div{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+  }
+  .circle{
+    margin-left: 15px;
+    background-color: rgb(246, 173, 78);;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+  }
+  .indexing{
+    margin-left: 32px;
+  }
+  .footer--label{
+    margin-top: -5px;
+    margin-left: 32px;
+  }
+  .item{
+    margin-left: 32px;
+    margin-top: -10px;
+  }
+  .logo{
+    margin: 0 10px;
+  }
+  .main--div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .indexing{
+    display: block;
+  }
+}
