@@ -99,7 +99,7 @@ nav{
   display: flex;
   justify-content: space-around;
 }
-@media only screen and (max-width: 745px){
+@media (width < 745px){
   .conDiv{
     margin-left: 32px;
     margin-right: 32px;
@@ -128,8 +128,8 @@ nav{
   }
   .circle1{
     position: absolute;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     background-color: rgb(246, 211, 166);
     z-index: 1;
@@ -138,8 +138,8 @@ nav{
   }
   .circle2{
     position: absolute;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     left: 32px;
     bottom: -32px;
     border-radius: 50%;
@@ -186,5 +186,34 @@ nav{
   }
   .indexing{
     display: block;
+  }
+}
+@media (1500px > width > 745px){
+  .circle1{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    right: 0;
+    top: -32px;
+  }
+  .circle2{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: -8px;
+    bottom: -32px;
+  }
+  .indexing{
+    margin-left: 32px;
+  }
+  .footer--label{
+    margin-top: -5px;
+    margin-left: 32px;
+  }
+  .item{
+    margin-top: 50px;
+  }
+  .logo{
+    margin: 0 10px;
   }
 }
